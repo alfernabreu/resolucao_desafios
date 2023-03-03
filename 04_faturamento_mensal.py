@@ -18,14 +18,15 @@ outros_estados = 19849.53
 
 total = estado_sp + estado_rj + estado_mg + estado_es + outros_estados
 
-
+print("\nBem-vindo(a)!")
+print(f"O faturamento mensal da distribuidora foi igual a:\nNo Estado do Espírito Santo: R${estado_es}\nNo Estado de Minas Gerais: R${estado_mg}\nNo Estado do Rio de Janeiro: R${estado_rj}\nNo Estado de São Paulo: R${estado_sp}\nNos demais estados: R${outros_estados}")
+print(f"O total do faturamento é de: R${total}")
 def calculo_percentual(x):
     resultado = (x / total) * 100
     return resultado
 
 
 def escolha_estado():
-    print("Bem-vindo(a)!")
     repete = True
     while repete == True:
         print("\nPara informar o percentual de representação de determinado Estado da Federação em relação ao faturamento total da distribuidora, escolha o número correspondente.")
