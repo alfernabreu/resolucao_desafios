@@ -57,16 +57,15 @@ def escolha_estado():
             case _:
                 print("\nPor favor, digite um número válido.")
 
-        repete = input('\nDeseja realizar outra consulta? Digite "sim" ou "não"\n').lower()
+        repete = input('\nDeseja realizar outra consulta? Digite "Sim" ou "Não"\n').lower()
 
         while repete != "sim" and repete != "não":
-            repete = input('\nATENÇÃO! Você deve digitar"sim" ou "não"\n').lower()
+            repete = input('\nATENÇÃO! Você deve digitar "Sim" ou "Não"\n').lower()
 
         if repete == "não":
             print("Obrigado pela preferência.")
             repete = False
         else:
             repete = True
-
 
 escolha_estado()
