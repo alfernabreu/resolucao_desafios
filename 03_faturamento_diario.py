@@ -23,10 +23,10 @@ for i in new_dados:
 menor = min(armazena_valor)
 maior = max(armazena_valor)
 
-print("\n===================== Menor faturamento do mês =====================")
+print("\n========== Menor faturamento do mês ==========")
 print(f"O menor faturamento do mês é igual a R${menor:.2f}")
 
-print("\n===================== Maior faturamento do mês =====================")
+print("\n========== Maior faturamento do mês ==========")
 print(f"O maior faturamento do mês é igual a R${maior:.2f}")
 
 # Cálculo da média
@@ -42,11 +42,11 @@ for i in new_dados:
           soma += i["valor"]
 
 media = soma / count
-print("\n===================== Média Mensal =====================")
+print("\n========== Média Mensal ==========")
 print(f"A média mensal de faturamento é igual a R${media:.2f}")
 
 #Cálculo do número de dias em que o faturamento foi maior que a média
-print("\n===================== Dias em que o faturamento foi maior que a média mensal =====================")
+print("\n========== Dias em que o faturamento foi maior que a média mensal ==========")
 count = 0
 for i in new_dados:
      if i["valor"] > media:
