@@ -15,6 +15,6 @@ Trata-se de repositório criado com a finalidade de apresentar as soluções aos
 Os códigos estão no repositório. Caso deseje, é possível executá-los via Replit seguindo os links abaixo:
 - 01_soma.py - https://replit.com/@alfernabreu/01somapy#main.py
 - 02_fibonacci.py - https://replit.com/@alfernabreu/02fibonaccipy#main.py
-- 03_faturamento_diario.py - 
+- 03_faturamento_diario.py - https://replit.com/@alfernabreu/03faturamentodiariopy#main.py
 - 04_faturamento_mensal.py - https://replit.com/@alfernabreu/04faturamentomensalpy#main.py
 - 05_inverte_string.py - https://replit.com/@alfernabreu/05invertestringpy#main.py
